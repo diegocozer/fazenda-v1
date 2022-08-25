@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ab328a7.css",
+    "main.js": "/static/js/main.6939e152.js",
+    "static/media/fazenda.jpg": "/static/media/fazenda.61afaf1e7fc35cd81282.jpg",
+    "static/media/casa.jpg": "/static/media/casa.a4ef7c239385258b0a6a.jpg",
+    "index.html": "/index.html",
+    "main.6ab328a7.css.map": "/static/css/main.6ab328a7.css.map",
+    "main.6939e152.js.map": "/static/js/main.6939e152.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ab328a7.css",
+    "static/js/main.6939e152.js"
+  ]
+}

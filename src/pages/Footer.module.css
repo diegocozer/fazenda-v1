@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.direitos {
+  width: 100%;
+  height: 50%;
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.377);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e437a;
+}
+
+.direitos p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.direitos a {
+  color: #fff;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.desenvolvido {
+  width: 100%;
+  height: 50%;
+  background-color: #1e437a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desenvolvido p {
+  color: #fff;
+}
+
+.desenvolvido a {
+  background-image: linear-gradient(270deg, #13b0f5, #e70faa);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: black;
+  font-weight: 600;
+}

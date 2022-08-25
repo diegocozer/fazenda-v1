@@ -1,0 +1,105 @@
+.convite {
+  display: flex;
+  justify-content: center;
+  background-image: url("../fotos/fazenda.jpg");
+  width: 100%;
+  height: 90vh;
+}
+.conteudo {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo h2 {
+  font-size: 30px;
+  font-family: "poppins" sans-serif;
+  font-weight: 700;
+  color: #2659a3;
+}
+
+.div_texto {
+  width: 100%;
+  height: 10%;
+}
+
+.conteudo h1 {
+  font-family: "poppins" sans-serif;
+  font-weight: bold;
+  color: #2659a3;
+}
+
+.conteudo_foto {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0.1px rgba(0, 0, 0, 0.479);
+}
+
+.foto_convite {
+  background-image: url("../fotos/casa.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.convite_texto {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+
+.convite_texto p {
+  text-align: left;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .conteudo h1 {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+  }
+
+  .conteudo_foto {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .convite_texto {
+    padding: 0;
+    gap: 0;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .foto_convite {
+    width: 80%;
+    height: 50%;
+    margin-top: 10px;
+  }
+
+  .conteudo h2 {
+    padding: 0;
+  }
+}
