@@ -9,6 +9,7 @@ const contentStyle = {
   background: "#364d79",
   textAlign: "center",
   padding: "20px",
+  borderRadius: "10px",
 };
 export default function Depoimentos() {
   return (
